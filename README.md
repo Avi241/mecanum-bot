@@ -15,7 +15,7 @@ roslaunch mecanumbot bringup.launch
 
 The robot can be controlled by publishing to the `/cmd_vel` topic. The message type is `geometry_msgs/Twist`. 
 
-To control the robot using a joystick / gamepad, the `joystick` parameter can be set to `true` while launching the node. This then uses the `joy` package to subscribe to the `/joy` topic and convert the joystick messages to `Twist` messages.
+To control the robot using a joystick / gamepad, the `joystick` parameter can be set to `true` while launching the node. This then uses the `joy` package to publish the `/joy` topic and convert the joystick messages to `Twist` messages.
 
 ## To Do
 - [ ] Publish odometry by using reverse kinematics
