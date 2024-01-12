@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+	<arg name="joystick" default="true"/>
+
+	<include file="$(find rosserial_server)/launch/socket.launch"/>
+	
+	<include file="$(find mecanumbot)/launch/joystick.launch" if="$(arg joystick)"/>
+
+</launch>
