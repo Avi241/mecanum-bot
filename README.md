@@ -8,7 +8,7 @@ The robot chasis was build using [this kit](https://robu.in/product/easymech-152
 The [firmware](./src/ros_mecanum_robot/) is written in C++ and uses the Arduino framework and should be flashed to the ESP32-WROOM using the Arduino IDE.
 
 ## ROS Node
-This repo is also a ROS package that contains a ROS node that can be used to bring up the robot. The node is written in Python and uses the [rosserial](http://wiki.ros.org/rosserial) package to communicate with the ESP32-WROOM. The node can be started using the following command:
+This repo is also a ROS package that contains a ROS node that can be used to bring up the robot. The node uses the [rosserial](http://wiki.ros.org/rosserial) package to communicate with the ESP32-WROOM. The node can be started using the following command:
 ```bash
 roslaunch mecanumbot bringup.launch
 ```
