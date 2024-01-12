@@ -1,5 +1,5 @@
 # Mecanum Bot
-The code for a robot with mecanum wheels and can be control by sending ROS Twist messages.
+The Firmware and ROS package for a robot with mecanum wheels that can be controlled by sending it ROS Twist messages.
 
 ## Robot Specifications
 The robot chasis was build using [this kit](https://robu.in/product/easymech-152-mm-mecanum-wheel-basic-shock-absorber-smart-car-robot-chassis/) from [robu.in](https://robu.in). The robot is controlled using a ESP32-WROOM (38-Pin).
@@ -21,4 +21,5 @@ To control the robot using a joystick / gamepad, the `joystick` parameter can be
 - [ ] Publish odometry by using reverse kinematics
 
 ## Credits
-The firmware is based on the [ros_mecanum_robot](https://github.com/ModernOctave/mecanum-bot) by [Reinbert](https://github.com/Reinbert).
+1. The firmware is based on the [ros_mecanum_robot](https://github.com/ModernOctave/mecanum-bot) by [Reinbert](https://github.com/Reinbert).
+2. The kinematics have been adapted from [this](https://www.robotsforroboticists.com/drive-kinematics/) blog post by [David Kohanbash](https://www.ri.cmu.edu/ri-people/david-kohanbash/).
