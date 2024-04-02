@@ -1,0 +1,137 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/cores/esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/variants/esp32"
+  },
+  {
+    "Sourcefile": "/home/indrones/Distroboxes/ubuntu18/catkin_ws/src/mecanum-bot/build/sketch/ros_mecanum_robot.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src"
+  },
+  {
+    "Sourcefile": "/home/indrones/Distroboxes/ubuntu18/catkin_ws/src/mecanum-bot/build/sketch/ros_mecanum_robot.ino.cpp",
+    "Include": "ArduinoOTA.h",
+    "Includepath": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/ArduinoOTA/src"
+  },
+  {
+    "Sourcefile": "/home/indrones/Distroboxes/ubuntu18/catkin_ws/src/mecanum-bot/build/sketch/ros_mecanum_robot.ino.cpp",
+    "Include": "Update.h",
+    "Includepath": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/Update/src"
+  },
+  {
+    "Sourcefile": "/home/indrones/Distroboxes/ubuntu18/catkin_ws/src/mecanum-bot/build/sketch/ros_mecanum_robot.ino.cpp",
+    "Include": "ros.h",
+    "Includepath": "/home/indrones/Arduino/libraries/ros_lib"
+  },
+  {
+    "Sourcefile": "/home/indrones/Distroboxes/ubuntu18/catkin_ws/src/mecanum-bot/build/sketch/ros_mecanum_robot.ino.cpp",
+    "Include": "ESPRotary.h",
+    "Includepath": "/home/indrones/Arduino/libraries/ESPRotary-master/src"
+  },
+  {
+    "Sourcefile": "/home/indrones/Distroboxes/ubuntu18/catkin_ws/src/mecanum-bot/build/sketch/ros_mecanum_robot.ino.cpp",
+    "Include": "PID_v1.h",
+    "Includepath": "/home/indrones/Arduino/libraries/Arduino-PID-Library-master"
+  },
+  {
+    "Sourcefile": "/home/indrones/Distroboxes/ubuntu18/catkin_ws/src/mecanum-bot/build/sketch/ros_mecanum_robot.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src/WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src/WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src/WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src/WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src/WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src/WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src/WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src/WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/WiFi/src/WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/ArduinoOTA/src/ArduinoOTA.cpp",
+    "Include": "ESPmDNS.h",
+    "Includepath": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/ESPmDNS/src"
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/ArduinoOTA/src/ArduinoOTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/Update/src/HttpsOTAUpdate.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/Update/src/Updater.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/Arduino/libraries/ros_lib/duration.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/Arduino/libraries/ros_lib/time.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/Arduino/libraries/ESPRotary-master/src/ESPRotary.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/Arduino/libraries/Arduino-PID-Library-master/PID_v1.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/indrones/.arduino15/packages/esp32/hardware/esp32/2.0.10/libraries/ESPmDNS/src/ESPmDNS.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

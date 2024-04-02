@@ -12,9 +12,9 @@
   IPAddress server(192, 168, 4, 2);
 #else
   // Override standard settings with user data. Example:
-  const char* SSID = "Test WiFi";
-  const char* PASSWORD = "Indrones@3039";
-  IPAddress server(192, 168, 0, 59);
+  const char* SSID = "Arvind";
+  const char* PASSWORD = "12345678";
+  IPAddress server(192, 168, 54, 40);
   // #include "user.h"
 #endif
 

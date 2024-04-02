@@ -1,6 +1,7 @@
-#define DEBUG_ROS false
-#define DEBUG_ENCODERS false
-#define DEBUG_DRIVE false
+#define DEBUG_ROS 0
+#define DEBUG_ENCODERS 0
+#define DEBUG_DRIVE 0
+#define DEBUG_ODOM 1
 
 #include "wifi.h"
 #include "ota.h"
@@ -9,9 +10,9 @@
 #include "encoder.h"
 #include "pid.h"
 #include "motor.h"
+#include "odom.h"
 
 #define LED_BUILTIN 2
-
 
 void setup()
 {
@@ -38,4 +39,5 @@ void loop()
   loopEncoders();
   loopPID();
   loopMotor();
+  loopOdom();
 }

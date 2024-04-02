@@ -8,28 +8,39 @@ def joy_callback(data):
 	# Create a Twist message
 	twist_msg = Twist()
 
-	vel = 0.1
+	vel = 0.08
 
 	# Map joystick axes to linear and angular velocities
 	# twist_msg.linear.x = data.axes[1]
 	# twist_msg.linear.y = -data.axes[0]
 	# twist_msg.angular.z = data.axes[3]
 
-
-
 	# Check buttons for additional control
+
+	# Angular
 	if data.buttons[4]:  # Button 4 for on-the-spot rotation (counter-clockwise)
 		twist_msg.angular.z = vel
 	elif data.buttons[5]:  # Button 5 for on-the-spot rotation (clockwise)
 		twist_msg.angular.z = -1*vel
-	elif data.buttons[0]:
-		twist_msg.linear.y = -1*vel
-	elif data.buttons[1]:
-		twist_msg.linear.x = vel
-	elif data.buttons[2]:
-		twist_msg.linear.x = -1*vel
+	
+	# Linear
 	elif data.buttons[3]:
+		twist_msg.linear.x = vel
+	elif data.buttons[0]:
+		twist_msg.linear.x = -1*vel
+	elif data.buttons[1]:
+		twist_msg.linear.y = -1*vel
+	elif data.buttons[2]:
 		twist_msg.linear.y = vel
+
+	## Diagonal
+	elif data.buttons[6]:
+		twist_msg.linear.x = -1*vel*0.6
+		twist_msg.linear.y = -1*vel*0.6
+
+	elif data.buttons[7]:
+		twist_msg.linear.x = vel*0.6
+		twist_msg.linear.y = vel*0.6
 
 	# Publish the Twist message
 	twist_pub.publish(twist_msg)
