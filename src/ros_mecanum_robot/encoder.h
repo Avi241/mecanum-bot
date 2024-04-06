@@ -2,14 +2,14 @@
 
 const int enc_rate = 10;
 
-const uint8_t LF_ENA = 39;
-const uint8_t LF_ENB = 36;
+const uint8_t LF_ENA = 36;
+const uint8_t LF_ENB = 39;
 
 const uint8_t RF_ENA = 26;
 const uint8_t RF_ENB = 25;
 
-const uint8_t LB_ENA = 33;
-const uint8_t LB_ENB = 32;
+const uint8_t LB_ENA = 32;
+const uint8_t LB_ENB = 33;
 
 const uint8_t RB_ENA = 35;
 const uint8_t RB_ENB = 34;
