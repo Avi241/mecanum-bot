@@ -49,7 +49,7 @@ void loopMotor(){
 	{
 		RF_last_update = millis();
 		_RF_pwm = RF_pwm;
-		digitalWrite(RF_DIR, _RF_pwm > 0 ? HIGH : LOW);
+		digitalWrite(RF_DIR, _RF_pwm > 0 ? LOW : HIGH);
 		if (abs(_RF_pwm) < pwm_deadzone) {
 			analogWrite(RF_PWM, 0);
 		}
@@ -73,7 +73,7 @@ void loopMotor(){
 	{
 		RB_last_update = millis();
 		_RB_pwm = RB_pwm;
-		digitalWrite(RB_DIR, _RB_pwm > 0 ? LOW : HIGH);
+		digitalWrite(RB_DIR, _RB_pwm > 0 ? HIGH : LOW);
 		if (abs(_RB_pwm) < pwm_deadzone) {
 			analogWrite(RB_PWM, 0);
 		}

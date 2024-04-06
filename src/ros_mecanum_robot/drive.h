@@ -3,8 +3,8 @@ extern float x, y, z;
 extern double LF_setpoint, RF_setpoint, LB_setpoint, RB_setpoint;
 
 float wheel_radius = 0.152/2;
-float wheel_separation_width = 0.556/2; // old 0.460
-float wheel_separation_length = 0.460/2;
+float wheel_separation_width = 0.556; // old 0.460
+float wheel_separation_length = 0.460;
 
 void loopDrive()
 {

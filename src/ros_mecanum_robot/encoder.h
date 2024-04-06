@@ -23,7 +23,7 @@ void updateLF(ESPRotary& r)
 {
 	int time = millis();
 	int pos = r.getPosition();
-	LF_vel = (float) (pos - LF_pos) / (time - LF_time)*6.283185;
+	LF_vel = (float) (pos - LF_pos) / (time - LF_time); // LF_vel is in rad/s 
 	LF_pos = pos;
 	LF_time = time;
 	#if DEBUG_ENCODERS
@@ -35,7 +35,7 @@ void updateRF(ESPRotary& r)
 {
 	int time = millis();
 	int pos = r.getPosition();
-	RF_vel = (float) (pos - RF_pos) / (time - RF_time)*6.283185;
+	RF_vel = (float) (pos - RF_pos) / (time - RF_time);
 	RF_pos = pos;
 	RF_time = time;
 	#if DEBUG_ENCODERS
@@ -47,7 +47,7 @@ void updateLB(ESPRotary& r)
 {
 	int time = millis();
 	int pos = r.getPosition();
-	LB_vel = (float) (pos - LB_pos) / (time - LB_time)*6.283185;
+	LB_vel = (float) (pos - LB_pos) / (time - LB_time);
 	LB_pos = pos;
 	LB_time = time;
 	#if DEBUG_ENCODERS
@@ -59,7 +59,7 @@ void updateRB(ESPRotary& r)
 {
 	int time = millis();
 	int pos = r.getPosition();
-	RB_vel = (float) (pos - RB_pos) / (time - RB_time)*6.283185;
+	RB_vel = (float) (pos - RB_pos) / (time - RB_time);
 	RB_pos = pos;
 	RB_time = time;
 	#if DEBUG_ENCODERS

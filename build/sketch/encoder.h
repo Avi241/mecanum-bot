@@ -6,14 +6,14 @@ const int enc_rate = 10;
 const uint8_t LF_ENA = 39;
 const uint8_t LF_ENB = 36;
 
-const uint8_t RF_ENA = 25;
-const uint8_t RF_ENB = 26;
+const uint8_t RF_ENA = 26;
+const uint8_t RF_ENB = 25;
 
 const uint8_t LB_ENA = 33;
 const uint8_t LB_ENB = 32;
 
-const uint8_t RB_ENA = 34;
-const uint8_t RB_ENB = 35;
+const uint8_t RB_ENA = 35;
+const uint8_t RB_ENB = 34;
 
 ESPRotary LF_ENC, RF_ENC, LB_ENC, RB_ENC;
 int LF_pos = 0, RF_pos = 0, LB_pos = 0, RB_pos = 0;

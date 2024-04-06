@@ -18,7 +18,8 @@ The robot can be controlled by publishing to the `/cmd_vel` topic. The message t
 To control the robot using a joystick / gamepad, the `joystick` parameter can be set to `true` while launching the node. This then uses the `joy` package to publish the `/joy` topic and convert the joystick messages to `Twist` messages.
 
 ## To Do
-- [ ] Publish odometry by using reverse kinematics
+- [] Calculate odometry by using reverse kinematics
+- [ ] Publish odometry to ROS
 
 ## Credits
 1. The firmware is based on the [ros_mecanum_robot](https://github.com/ModernOctave/mecanum-bot) by [Reinbert](https://github.com/Reinbert).
