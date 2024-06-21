@@ -1,7 +1,7 @@
 #include <PID_v1.h>
 
 
-double kp=50,ki=0,kd=0;
+double kp=1,ki=0,kd=0;
 double LF_setpoint = 0, RF_setpoint = 0, LB_setpoint = 0, RB_setpoint = 0;
 
 PID *RF_PID, *LF_PID, *LB_PID, *RB_PID;
